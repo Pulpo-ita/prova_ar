@@ -1,4 +1,4 @@
-window.onload = () => {
+function ar() {
     const button = document.querySelector('button[data-action="change"]');
     button.innerText = '﹖';
 
@@ -6,7 +6,7 @@ window.onload = () => {
     renderPlaces(places);
 };
 
-function staticLoadPlaces() {
+function staticLoadPlaces(form) {
     return [
         {
             name: 'Pokèmon',
